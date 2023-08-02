@@ -37,6 +37,7 @@ p{
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-weight:bold ;
+    font-size: 35px;
     color: #00ccffbd;
     text-shadow: 2px 2px #003b49bd;
 }
@@ -44,6 +45,14 @@ h1{
 h2 {
         font-family: 'Times New Roman', Times, serif;
         font-weight:bold ;
+        font-size: 30px;
         color: #00ccffbd;
         text-shadow: 2px 2px #003b49bd;
+}
+
+h1:hover{
+    color:whitesmoke
+}
+h2:hover{
+    color:whitesmoke
 }
