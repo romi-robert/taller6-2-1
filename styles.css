@@ -1,12 +1,21 @@
+head{
+    text-align: center;
+}
 body {
+
     background-image: url(FondoDePágina.jpg);
     background-size: cover;
+
 }
 
-.image{
+.image {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .link-button {
@@ -19,6 +28,19 @@ body {
     box-shadow: 2px 3px #888888;
 }
 
+
 p {
     background-color: white;
+}
+.h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: blue;
+}
+
+.h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: blue;
+
 }
