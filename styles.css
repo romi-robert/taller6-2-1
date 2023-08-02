@@ -1,12 +1,20 @@
+head{
+    text-align: center;
+}
 body {
-    background-color: rgb(255, 255, 165);
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(FondoDePágina.jpg);
+    background-size: cover;
 }
 
-.image{
+.image {
     border: 5px solid green;
     border-radius: 10px;
     height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .link-button {
@@ -17,4 +25,21 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+}
+
+
+p {
+    background-color: white;
+}
+.h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: blue;
+}
+
+.h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: blue;
+
 }
