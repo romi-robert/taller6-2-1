@@ -16,20 +16,34 @@ background-size: cover;
 
 .link-button {
     text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
+    background-color:#00ccffbd;
+    color: white;
+    border: 1px solid #003b49bd;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+    box-shadow: 2px 3px whitesmoke;
     transition: 1.3s;
 }
 .link-button:hover{
     border: 1.8px solid gray;
     background-color: #929292bd;
-    box-shadow: 4px 6px #888888;
+    box-shadow: 4px 6px whitesmoke;
 }
 
 p{
     background-color: white;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold ;
+    color: #00ccffbd;
+    text-shadow: 2px 2px #003b49bd;
+}
+
+h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight:bold ;
+        color: #00ccffbd;
+        text-shadow: 2px 2px #003b49bd;
 }
