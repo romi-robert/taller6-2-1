@@ -2,8 +2,10 @@ head{
     text-align: center;
 }
 body {
-    background-color: rgb(255, 255, 165);
-    text-align: center;
+
+    background-image: url(FondoDePágina.jpg);
+    background-size: cover;
+
 }
 
 .image {
@@ -26,6 +28,10 @@ body {
     box-shadow: 2px 3px #888888;
 }
 
+
+p {
+    background-color: white;
+}
 .h1 {
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
@@ -36,4 +42,5 @@ body {
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     color: blue;
+
 }
